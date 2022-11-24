@@ -1,0 +1,22 @@
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+}
+header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+.theme {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+}
