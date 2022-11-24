@@ -1,7 +1,7 @@
 import "./search.css";
 import searchIcon from "../assets/icon-search.svg";
 
-export default function Search() {
+export default function Search({ theme }) {
   return (
     <>
       <form>
@@ -11,6 +11,7 @@ export default function Search() {
             type="search"
             id="search"
             placeholder="Search GitHub username..."
+            style={{ background: theme ? "#FFF" : "#1e2a47" }}
           />
         </label>
         {/* <span className="error">no result</span> */}
