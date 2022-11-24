@@ -1,0 +1,124 @@
+.userInfo {
+  background: #1e2a47;
+  border-radius: 15px;
+  padding: 32px 24px 50px 24px;
+  margin-top: 16px;
+}
+.prPhoto {
+  height: 70px;
+  width: 70px;
+}
+.profile {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 34px;
+}
+.briefInfo {
+  color: white;
+  font-family: "Space Mono";
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.userName {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+.userId,
+.creationDate {
+  margin: 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+}
+.userId {
+  color: #0079ff;
+}
+.bio {
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
+  line-height: 25px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+}
+.folowersInfo {
+  margin-top: 25px;
+  background: #141d2f;
+  border-radius: 10px;
+  display: flex;
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  gap: 15px;
+}
+.followers h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 11px;
+}
+.folowers span {
+  font-weight: 700;
+  font-size: 16px;
+}
+.followers {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  margin-top: 24px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.footerEl {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 40%;
+}
+@media screen and (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    font-size: 15px;
+  }
+  .folowersInfo {
+    justify-content: space-around;
+  }
+  .followers h5 {
+    font-size: 15px;
+  }
+  .folowers span {
+    font-size: 22px;
+  }
+  .bio {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .userInfo {
+    padding: 48px 48px 48px 200px;
+    position: relative;
+  }
+  .prPhoto {
+    height: 117px;
+    width: 117px;
+    position: absolute;
+    left: 48px;
+  }
+}
