@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/github-user-search/static/css/main.f1753cdc.css",
+    "main.js": "/github-user-search/static/js/main.ad97d983.js",
+    "static/media/icon-sun.svg": "/github-user-search/static/media/icon-sun.f28a8996f9959c40bdff14d5a43c08d8.svg",
+    "index.html": "/github-user-search/index.html",
+    "static/media/icon-moon.svg": "/github-user-search/static/media/icon-moon.cce754cec46d095fd3ce12737f38694b.svg",
+    "static/media/icon-search.svg": "/github-user-search/static/media/icon-search.0cc0c98424cc75d5e1dfbb9e3abb6785.svg",
+    "main.f1753cdc.css.map": "/github-user-search/static/css/main.f1753cdc.css.map",
+    "main.ad97d983.js.map": "/github-user-search/static/js/main.ad97d983.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1753cdc.css",
+    "static/js/main.ad97d983.js"
+  ]
+}
