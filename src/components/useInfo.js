@@ -78,7 +78,7 @@ export default function UserInfo({ theme, searchUser, setResult }) {
           <span>{data.following}</span>
         </div>
       </div>
-      <Footer data={data} />
+      <Footer data={data} theme={theme} />
     </div>
   );
 }
