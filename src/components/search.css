@@ -15,6 +15,10 @@ form input {
   font-weight: 400;
   font-size: 13px;
 }
+input::-webkit-search-cancel-button {
+  appearance: none;
+  -webkit-appearance: none;
+}
 form img {
   position: absolute;
   top: 20px;
@@ -34,4 +38,10 @@ button {
 }
 button:hover {
   background: #60abff;
+}
+.error {
+  position: absolute;
+  color: red;
+  right: 100px;
+  top: 20px;
 }

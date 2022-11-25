@@ -1,0 +1,29 @@
+footer {
+  margin-top: 24px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footerEl {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+@media screen and (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  .footerEl {
+    width: 40%;
+  }
+  .footerEl span {
+    max-width: 150px;
+  }
+}

@@ -6,6 +6,7 @@
 .prPhoto {
   height: 70px;
   width: 70px;
+  border-radius: 50px;
 }
 .profile {
   display: flex;
@@ -71,29 +72,8 @@
   justify-content: center;
   align-items: center;
 }
-footer {
-  margin-top: 24px;
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-.footerEl {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  width: 40%;
-}
+
 @media screen and (min-width: 768px) {
-  footer {
-    flex-direction: row;
-    font-size: 15px;
-  }
   .folowersInfo {
     justify-content: space-around;
   }
